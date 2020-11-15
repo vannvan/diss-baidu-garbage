@@ -11,3 +11,10 @@
 意在分享 get 到的小技能，避免开发时一边喷百度一边又不得不天天依靠百度查文档查经验的打工人们。
 
 亦可是一个简单的架子，希望有小伙伴注意到其他类似垃圾关键词的网站分享出来，大家一起 diss 啊！
+
+### 效果示例
+
+diss 前
+[![DFeFWd.png](https://s3.ax1x.com/2020/11/15/DFeFWd.png)](https://imgchr.com/i/DFeFWd)
+diss 后
+[![DFeiJH.png](https://s3.ax1x.com/2020/11/15/DFeiJH.png)](https://imgchr.com/i/DFeiJH)
