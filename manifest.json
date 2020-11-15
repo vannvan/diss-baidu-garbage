@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "vannvan",
+    "version": "1.0.0",
+    "description": "屏蔽百度垃圾技术信息",
+    "author": "vannvan",
+    "icons": {
+        "48": "./icon/icon-32.png",
+        "128": "./icon/icon-200.png"
+    },
+    "homepage_url": "https://github.com/vannvan",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.baidu.com/*"
+            ],
+            "js": [
+                "./js/inject.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "page": "background.html"
+    }
+}
