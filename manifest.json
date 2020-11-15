@@ -1,12 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "vannvan",
+    "name": "屏蔽baidu垃圾信息",
     "version": "1.0.0",
     "description": "屏蔽百度垃圾技术信息",
     "author": "vannvan",
     "icons": {
         "48": "./icon/icon-32.png",
         "128": "./icon/icon-200.png"
+    },
+    "browser_action": {
+        "default_icon": "./icon/icon-32.png",
+        "default_popup": "popup.html"
     },
     "homepage_url": "https://github.com/vannvan",
     "permissions": [

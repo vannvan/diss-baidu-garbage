@@ -6,7 +6,7 @@
 
 ### 实现
 
-代码不多，整体目前只有五六十行，主要用了`chrome.webRequest.onHeadersReceived`拦截百度的搜索操作，以明确当前查询操作已完成，然后将命中“垃圾信息”关键词的 DOM 节点删除。主要是找到合适的方法和时机操作 DOM 花了些时间，具体用法参考[博文](https://www.dazhuanlan.com/2019/11/30/5de1650e897d8/)
+代码不多，整体目前只有五六十行，主要用了`chrome.webRequest.onHeadersReceived`拦截百度的搜索操作，以明确当前查询操作已完成，然后将命中“垃圾信息”关键词的 DOM 节点删除。主要是找到合适的方法和时机操作 DOM 花了些时间，具体用法参考[onHeadersReceived](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived/)
 
 意在分享 get 到的小技能，避免开发时一边喷百度一边又不得不天天依靠百度查文档查经验的打工人们。
 

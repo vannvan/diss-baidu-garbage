@@ -13,8 +13,9 @@ const Baidu = {
             }
         })
         let countInfo = document.createElement('div')
+        let infoText = this.count > 0 ? `已屏蔽${this.count}条CSDN垃圾推荐` : '真好，本次查询没有垃圾信息'
         countInfo.style.cssText = 'position:absolute;bottom:50px;right:20px;color:#bdc3c7'
-        countInfo.innerHTML = `已屏蔽${this.count}条CSDN垃圾推荐`
+        countInfo.innerHTML = infoText
         document.getElementById("page").append(countInfo)
     },
 
